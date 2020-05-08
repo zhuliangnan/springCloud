@@ -1,0 +1,1924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="77805e51-4934-4022-8725-d82b24346c76" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ConcurrentProgramming/src/main/java/com/my/day1/suyou.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConcurrentProgramming/src/main/java/com/my/day1/suyou2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConcurrentProgramming/src/main/java/com/my/lock/CreatLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConcurrentProgramming/src/main/java/com/my/lock/TestPark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80byzk/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80byzk/src/main/java/com/zln/springcloud/OrderZkMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80byzk/src/main/java/com/zln/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80byzk/src/main/java/com/zln/springcloud/controller/OrderZKController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80byzk/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/zln/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/zln/springcloud/dao/PaymentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/zln/springcloud/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/zln/springcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004byzk/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004byzk/src/main/java/com/zln/springcloud/PaymentMain8004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004byzk/src/main/java/com/zln/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8004byzk/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/design/APPLY_BUTTON.pdm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/design/BASE_CONTRACT_ARCHIVES.pdm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/design/BASE_HOME_PAGE.pdm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/design/BASE_INDUSTRY_ASSET.pdm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/design/BASE_RISK_LINKMAN.pdm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/design/BASE_TERMINAL_APPLY.pdm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/design/BASE_TERMINAL_APPLY_TYPE.pdm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/design/BASE_TERMINAL_ChangeApply.pdm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/design/BASE_TERMINAL_STOPAPPLY.pdm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/design/BASE_TERMINAL_ScaleApply.pdm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/design/IEOP_BUTTON.pdm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/design/LANG_BASE.pdm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/design/Role_Relation.pdm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/design/base_changerecord.pdm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/design/base_langjiu.pdm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/design/occ-base-ext.pdm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/design/sync_log.pdm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/script/CONTRACT.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/script/DML.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/script/HOMEPAGE.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/script/ROLE_PERMISSION.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/script/TERMINAL.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/script/customer2.0.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/script/直销/ddl.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/database/script/直销/dml.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/doc/fmcg_ddl.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/doc/fmcg_dml.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/lib/com/yonyou/iuap/workbench-model/3.1.0-RC001/workbench-model-3.1.0-RC001.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/lib/com/yonyou/iuap/workbench-utils/3.1.0-RC001/workbench-utils-3.1.0-RC001.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/pom-dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/pom-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/FmcgOccBaseExtApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/entity/ApplyButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/entity/ApplyRoleRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/entity/ButtonRoleRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/entity/UserDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/repository/ApplyButtonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/repository/ApplyRoleRelationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/repository/ButtonRoleRelationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/repository/UserDeviceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/service/ApplyButtonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/service/ApplyRoleRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/service/ButtonRoleRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/service/UserDeviceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/service/dto/ApplyButtonDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/service/dto/ApplyRoleRelationDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/service/dto/ButtonRoleRelationDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/service/dto/UserDeviceDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/service/mapper/ApplyButtonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/service/mapper/ApplyRoleRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/service/mapper/ButtonRoleRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/service/mapper/UserDeviceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/service/utils/DateHandleUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/web/AppCustomerAssetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/web/AppCustomerRiskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/web/AppIndustryDocController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/web/AppLinkmanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/web/ApplyButtonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/app/web/UserDeviceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/listener/ApplicationReadyEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/AbcBankSignInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/ActivationConrtrolRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/AdministrativeDivisionExtRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/AllowSaleProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/AppTabBarRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/AppTabBarRoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/AppUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/ApplyRelationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/AreaApplyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/AttachmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/BankSignInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/BasePaymentTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/BdInoutbusiclassRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/BrandExtRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CCBBankSignInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CanalTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/ChangerecordRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/ChnltypeExtRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CodeElemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CodePatternRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/ConBreachSortRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/ConReceiptAgreeBRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/ConReceiptAgreeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/ConReceiptPointRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/ConRiskSortRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CusReqFormExtRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CustChanTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CustDocRefExtRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CustomerApplyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CustomerAreaRefRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CustomerAreaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CustomerAssetDetailsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CustomerAssetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CustomerAttachsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CustomerBaseInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CustomerCategoryLjRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CustomerChangeApplyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CustomerCusttransferRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CustomerExtRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CustomerExternalrepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CustomerGradeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CustomerPersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CustomerPotentialRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CustomerRiskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CusttransferCustsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/CusttransferMgrRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/DealGoodsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/DepartmentExtNativeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/DepartmentExtRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/GoodsCategoryExtRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/GoodsExtOrgRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/GoodsExtRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/GoodsExtTbRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/HierarchyExtRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/HierarchyNativeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/HomePageAreaPassRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/HomePageAreaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/HomePageAreaSettingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/HomePageTargetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/HomePageTargetSettingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/IndustryDocRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/LinkmanRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/LoginSelfDefinedRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/LoginTraceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/MarketAreaExtNativeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/MarketAreaExtRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/MvBdBilltypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/MvBdDefdocRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/MvSoLimittypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/OrgMarketAreaLevelNativeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/OrganizationExtNativeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/OrganizationExtRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/OrganizationExtTbRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/PersonExtRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/PersonPostExtNativeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/PersonPostExtRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/PersonRelMarketAreaExtRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/ProductGroupRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/ProductInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/ProductMaterialGroupRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/PublicityMaterialsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/ReferenceCenterRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/RelatedPersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/ReliefResourceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/RiskClassDocRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/RoleExtendRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/RoleNativeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/RolePermissionExtendRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/RolePermissionNavtiveRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/RoleRelationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/RoleTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/SyncLogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/SysParamExtRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/SysVersionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalApplyAttachmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalApplyBaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalApplyMarketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalApplyPersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalApplyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalApplySupplierRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalApplyTypeOrgRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalApplyTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalAttachGroupRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalAttachmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalBaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalChangeApplyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalCheckApplyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalDistributionItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalDistributionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalGradeCanalRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalGradeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalImportRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalMarketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalObjectTypeOrgRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalObjectTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalParentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalPersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalScaleapplyItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalScaleapplyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalSecondaryTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalStopApplyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalStopPropRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalStoreNavtiveRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalStoreRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalSupplierNativeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalSupplierRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalTypeCanalRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/TerminalTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/VersionTestRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/WholesalerAddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/WholesalerContactsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/WholesalerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/repository/WholesalerSupplierRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/businessverify/BusinessVerifyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerApplyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerAreaRefService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerAreaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerAttachsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerBaseInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerCategoryLjService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerChannelToNcService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerCommonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerCusttransferService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerDataAnalysisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerDataForHHDService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerExcelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerExtExcelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerExtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerExternalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerForNcService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerGradeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerLevelExtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerManagerRelationExtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerPersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerPotentialService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerStufferExcelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerToNCDateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerToNCstatusService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/customer/CustomerTradingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/ActivationConrtrolMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/AllowSaleProductMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/AppTabBarRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/AppTabBarRolerMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/ApplyRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/AreaApplyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/BankSignInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/BasePaymentTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/CCBBankSignInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/ChangerecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/CodePatternMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/ConBreachSortMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/ConBreachSortMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/ConReceiptAgreeBMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/ConReceiptAgreeBMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/ConReceiptAgreeMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/ConReceiptPointMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/ConRiskSortMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/CustChanTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/CustomerApplyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/CustomerAreaMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/CustomerAreaRefMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/CustomerAssetDetailsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/CustomerAssetDetailsMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/CustomerAssetMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/CustomerAttachsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/CustomerBaseInfoMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/CustomerCategoryLjMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/CustomerChangeApplyMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/CustomerCusttransferMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/CustomerExtMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/CustomerGradeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/CustomerPotentialMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/CustomerRiskMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/CusttransferCustsMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/CusttransferMgrMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/CusttransferMgrMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/GoodsExtOrgMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/GoodsExtTbMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/HierarchyExtMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/HomePageAreaSettingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/HomePageTargetMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/HomePageTargetSettingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/LinkmanMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/LoginTraceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/MarketAreaExtMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/MvBdBilltypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/PersonExtMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/PersonExtMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/PersonPostExtMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/PersonSubPersonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/PersonUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/ProductMaterialGroupMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/PublicityMaterialsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/PublicityMaterialsMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/RelatedPersonMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/RiskClassDocMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/RoleExtendMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/RoleExtendMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/RoleRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/RoleTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/SyncLogMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalApplyBaseMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalApplyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalApplyMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalApplyPersonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalApplySupplierMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalApplyTypeOrgMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalApplyTypeOrgMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalBaseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalBaseMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalChangeApplyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalChangeApplyMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalCheckApplyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalCheckApplyMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalDistributionItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalDistributionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalGradeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalMarketMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalObjectTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalObjectTypeOrgMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalObjectTypeOrgMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalParentMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalPersonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalScaleapplyItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalSecondaryTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalStopPropMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalTypeCanalMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/TerminalgGradeCanalMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/VersionTestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/WholesalerAddressMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/WholesalerAddressMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/WholesalerContactsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/WholesalerContactsMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/mapper/WholesalerSupplierMapperDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/terminal/TerminalApplyBaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/terminal/TerminalApplyMarketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/terminal/TerminalApplyPersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/terminal/TerminalApplyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/terminal/TerminalAttachGroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/terminal/TerminalAttachmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/terminal/TerminalBaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/terminal/TerminalDistributionItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/terminal/TerminalDistributionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/terminal/TerminalExcelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/terminal/TerminalGradeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/terminal/TerminalMarketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/terminal/TerminalParentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/terminal/TerminalPersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/terminal/TerminalScaleapplyItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/terminal/TerminalScaleapplyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/terminal/TerminalSecondaryTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/terminal/TerminalStopApplyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/terminal/TerminalStoreOsdExcelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/terminal/TerminalStoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/terminal/TerminalSupplierService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/service/terminal/TerminalTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/AESUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/AbcBankSignInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/AdministrativeDivisionExtController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/AllowSaleProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/AppArchiveController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/AppAreaApplyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/AppAuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/AppAuthHandlerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/AppCountryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/AppCustDocExtRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/AppDealGoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/AppGoodsCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/AppGoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/AppLoginSelfDefinedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/AppOAuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/AppOrganizationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/AppPersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/AppPersonExtController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/AppPersonRelMarketAreaExtController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/AppRiskClassDocController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/AppTabBarRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/AppTerminalCheckApplyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/ApplyChangeRecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/ApplyCustomerRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/ArchiveController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/BankSignInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/BusinessVerifyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/CCBBankSignInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/CacheInitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/CanalTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/CanalTypeRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/ChangerecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/CodeElemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/CodePatternController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/ConBreachSortController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/ConBreachSortRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/ConReceiptAgreeBController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/ConReceiptAgreeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/ConReceiptAgreeRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/ConReceiptPointController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/ConReceiptPointRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/ConRiskSortController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/ConRiskSortRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/CustChanTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/CustChanTypeRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/CustomerAssetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/CustomerAssetDetailsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/CustomerExtRefControllerCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/CustomerRiskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/CustomerTargetRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/DataChangesUnityLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/DealGoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/DealGoodsRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/DepartmentAuthRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/DepartmentAuthTreeRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/DepartmentTreeRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/GoodsCategoryExcelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/GoodsCategoryExtController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/GoodsExtController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/GoodsExtRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/GoodsPictrueUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/HierarchyExtController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/HomePageAreaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/HomePageAreaPassController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/HomePageAreaRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/HomePageAreaSettingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/HomePageTargetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/HomePageTargetRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/HomePageTargetSettingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/IndustryDoc4TopRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/IndustryDocController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/IndustryDocFastTreeRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/IndustryDocFilterChildRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/LinkmanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/LoginSelfDefinedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/LoginTraceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/MarketAreaExtController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/MarketAreaFastTreeRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/MarketAreaPersonAuthRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/MarketPersonPcAppController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/MvBdDefdocController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/MvSoLimittypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/OrgMarketAreaLevelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/OrganizationAuthRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/OrganizationAuthTreeRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/OrganizationExtController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/OrganizationForCustRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/OrganizationTreeRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/PayObjectRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/PersonAuthRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/PersonDataRightRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/PersonForTargetAchiRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/PersonPostExtController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/ProductGroupRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/ProductInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/ProductInfoRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/ProductMaterialGroupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/PublicityMaterialsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/RedisUtilCommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/ReferenceCenterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/RelatedPersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/RiskClassDocController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/RiskClassDocRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/RoleExtendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/RolePermissionExtendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/RoleTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/SubjectObjectRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/SyncLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/SysVersionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/TerminalApplyAttachmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/TerminalApplyBaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/TerminalApplyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/TerminalApplyMarketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/TerminalApplyPersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/TerminalApplyRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/TerminalApplySupplierController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/TerminalApplyTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/TerminalApplyTypeOrgController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/TerminalCheckApplyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/TerminalGoodsCategoryRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/TerminalGradeCanalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/TerminalObjectTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/TerminalObjectTypeOrgController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/TerminalStopPropController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/WholesalerAddressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/WholesalerRefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/java/com/yonyou/fmcg/occ/base/ext/web/WholesalerSupplierController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/YouXiaoTong.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/YouXiaoTong_dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/applicationContext-cache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/applicationContext-cxf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/applicationContext-http.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/applicationContext-lock.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/applicationContext-metadata.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/applicationContext-persistence-jpa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/applicationContext-persistence-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/applicationContext-persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/applicationContext-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/authfile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/authrbac-sdk.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/geocading.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/menu-class-mapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/msg-sdk.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/outSysUser.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/outer-interface.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/sdk.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/sdk_dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/sign-outer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/main/resources/synctrl.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/test/java/com/yonyou/fmcg/util/codegenerator/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/test/java/com/yonyou/fmcg/util/codegenerator/CodeGeneratorEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/test/java/com/yonyou/fmcg/util/codegenerator/GeneratorHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/test/java/com/yonyou/fmcg/util/codegenerator/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/test/java/com/yonyou/fmcg/util/codegenerator/pdm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/test/java/frontgenerator/html_bill.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/test/java/frontgenerator/html_singledoc.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/test/java/frontgenerator/js_bill.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/test/java/frontgenerator/js_singledoc.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/test/java/frontgenerator/meta.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/test/java/generator/controller.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/test/java/generator/dto.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/test/java/generator/entity.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/test/java/generator/mapper.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/test/java/generator/mapperDecorator.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/test/java/generator/refController.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/test/java/generator/repository.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/src/test/java/generator/service.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../crm/fmcg-occ-base-ext-web/upgrade/sql/upgrade.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mybatis-plus/src/main/java/com/zln/springbootmybatisplus/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mybatis-plus/src/main/java/com/zln/springbootmybatisplus/controller/HashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mybatis-plus/src/main/java/com/zln/springbootmybatisplus/controller/SpringbootMybatisPlusController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mybatis-plus/src/main/java/com/zln/springbootmybatisplus/dto/SpringbootMybatisPlusRequestQueryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mybatis-plus/src/main/java/com/zln/springbootmybatisplus/dto/SpringbootMybatisPlusResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mybatis-plus/src/main/java/com/zln/springbootmybatisplus/entity/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mybatis-plus/src/main/java/com/zln/springbootmybatisplus/entity/SpringbootMybatisPlus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mybatis-plus/src/main/java/com/zln/springbootmybatisplus/mapper/SpringbootMybatisPlusMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mybatis-plus/src/main/java/com/zln/springbootmybatisplus/service/SpringbootMybatisPlusService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-mybatis-plus/src/main/java/com/zln/springbootmybatisplus/service/impl/SpringbootMybatisPlusServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/service/AdminmessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/service/DetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/service/impl/AdminmessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/service/impl/DetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/css/font/adminthemes-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/css/font/adminthemes-webfont.eot-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/css/font/adminthemes-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/css/font/adminthemes-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/css/font/adminthemes-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/css/font/adminthemes-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/css/jquery.mCustomScrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/images/admin_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/js/Particleground.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/js/amcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/js/html5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/js/jquery.mCustomScrollbar.concat.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/js/pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/js/serial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/js/ueditor.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/js/ueditor.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/js/verificationNumbers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/upload/alipay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/upload/goods01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/upload/goods02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/upload/goods03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/upload/shentong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/upload/tenpay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/upload/user_001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/upload/user_002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/upload/wechatpay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/upload/yuantong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/static/theme/upload/yunda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/templates/Admin_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/templates/Admin_login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/templates/adjust_funding.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/templates/discharge_statistic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/templates/express_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/templates/order_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/templates/order_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/templates/pay_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/templates/product_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/templates/product_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/templates/product_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/templates/recycle_bin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/templates/sales_volume.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/templates/sales_volume_ByBrand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/templates/setting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/templates/user_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/templates/user_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/templates/user_rank.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-shop/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-shop/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-shop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-shop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/controller/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/controller/PersonalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/controller/PersonalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/controller/hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/controller/hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/mapper/AdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/mapper/AdminMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/model/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/model/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/service/AddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/service/AddressService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/service/GoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/service/OrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/service/OrdersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/service/UserMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/service/UserMessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/service/impl/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/service/impl/GoodsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/service/impl/OrdersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/service/impl/OrdersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/service/impl/UserMessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-shop/src/main/java/com/springboot/springbootshop/service/impl/UserMessageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-shop/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-shop/src/main/resources/application-dev.properties" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-provider-payment8001/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-consumer-order80/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-api-commons/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-eureka-server7001/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-eureka-server7002/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-provider-payment8002/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-provider-payment8004/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-provider-payment8004byzk/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-consumer-order80byzk/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-consumer-order80byzk/src/main/java/com/zln/springcloud/OrderZkMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-consumer-order80byzk/src/main/java/com/zln/springcloud/controller/OrderZKController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-consumer-order80byzk/src/main/java/com/zln/springcloud/config/ApplicationContextConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/zln/springcloud/OrderMain80.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/zln/springcloud/controller/OrderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/zln/springcloud/config/ApplicationContextConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="21" column="5" selection-start-line="17" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Singleton" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>druid-spring-boot-starter</find>
+      <find>druid</find>
+      <find>mybatis</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zln/springcloud/entities/Payment.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zln/springcloud/entities/CommonResult.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zln/springcloud/dao/PaymentDao.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/mapper/PaymentMapper.xml" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zln/springcloud/service/PaymentDao.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zln/springcloud/service/PaymentService.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/zln/soringcloud/OrderMain80.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/zln/soringcloud/entities/CommonResult.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/zln/soringcloud/config/ApplicationContextConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/zln/soringcloud/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/cloud-api-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-api-commons/src/main/java/soringcloud/OrderMain80.java" />
+        <option value="$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/zln/springcloud/EurekaMain7001.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-order80/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/zln/springcloud/OrderMain80.java" />
+        <option value="$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8002/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/springcloud/service/impl/PaymentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/zln/springcloud/config/ApplicationContextConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/springcloud/controller/PaymentController.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zln/springcloud/service/impl/PaymentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/springcloud/dao/PaymentDao.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zln/springcloud/PaymentMain8001.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zln/springcloud/controller/PaymentController.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/zln/springcloud/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-eureka-server7002/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-eureka-server7002/src/main/java/com/zln/springcloud/EurekaMain7002.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8004/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/zln/springcloud/controller/PaymentController.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8004/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/zln/springcloud/PaymentMain8004.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/zln/springcloud/PaymentMain8002.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8004byzk/src/main/java/com/zln/springcloud/controller/PaymentController.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8004byzk/src/main/java/com/zln/springcloud/PaymentMain8004.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8004byzk/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8004byzk/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-order80byzk/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-order80byzk/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-order80byzk/src/main/java/com/zln/springcloud/OrderZkMain.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-order80byzk/src/main/java/com/zln/springcloud/config/ApplicationContextConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-order80byzk/src/main/java/com/zln/springcloud/controller/OrderZKController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files/Java/apache-maven-3.5.2" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud-provider-payment8004byzk" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud-provider-payment8004byzk" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="skipTests" value="true" />
+    <option name="vmOptions" value="-DarchetypeCatalog=local" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="206" />
+    <option name="y" value="15" />
+    <option name="width" value="1655" />
+    <option name="height" value="1019" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80byzk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80byzk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80byzk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80byzk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80byzk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80byzk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80byzk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-order80byzk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8002" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8004byzk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8004byzk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8004byzk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8004byzk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8004byzk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8004byzk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-payment8004byzk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cloud2020" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cloud-provider-payment8001" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cloud-provider-payment8001" type="616d4139:PackageViewModuleNode" />
+              <item name="com.zln.springcloud" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="58d84e3e:PackageViewProjectNode" />
+              <item name="cloud-provider-payment8001" type="616d4139:PackageViewModuleNode" />
+              <item name="com.zln.springcloud" type="1f31426a:PackageElementNode" />
+              <item name="controller" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="cloud2020" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="cloud-provider-payment8001" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="cloud-provider-payment8001" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="cloud-provider-payment8001" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="cloud-provider-payment8001" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="cloud-provider-payment8001" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="cloud-provider-payment8001" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zln" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="cloud-provider-payment8001" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zln" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="springcloud" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="cloud2020" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="cloud-provider-payment8001" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zln" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="springcloud" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588855477297" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-eureka-server7002" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.27929688" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEAProjects\cloud2020\cloud-provider-payment8002\src\main\java\com\zln\springcloud" />
+      <recent name="D:\IDEAProjects\cloud2020\cloud-provider-payment8002\src\main\java" />
+      <recent name="D:\IDEAProjects\cloud2020\cloud-provider-payment8002\src\main\resources" />
+      <recent name="D:\IDEAProjects\cloud2020\cloud-eureka-server7001\src\main\resources" />
+      <recent name="D:\IDEAProjects\cloud2020\cloud-api-commons\src\main\java\com\zln\springcloud" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEAProjects\cloud2020\cloud-provider-payment8001\src\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.299389" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrderZkMain">
+    <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-eureka-server7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zln.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zln.springcloud.EurekaMain7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-eureka-server7002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zln.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zln.springcloud.EurekaMain7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudconsumerorder80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zln.springcloud.OrderMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderZkMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-order80byzk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zln.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zln.springcloud.OrderZkMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zln.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zln.springcloud.PaymentMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zln.springcloud.PaymentMain8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment8004byzk" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zln.springcloud.PaymentMain8004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.OrderZkMain" />
+        <item itemvalue="Spring Boot.EurekaMain7002" />
+        <item itemvalue="Spring Boot.PaymentMain8001" />
+        <item itemvalue="Spring Boot.EurekaMain7001" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77805e51-4934-4022-8725-d82b24346c76" name="Default Changelist" comment="" />
+      <created>1586336835500</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586336835500</updated>
+      <workItem from="1586336840375" duration="1651000" />
+      <workItem from="1586392405242" duration="24196000" />
+      <workItem from="1586438319965" duration="38000" />
+      <workItem from="1586501340064" duration="1711000" />
+      <workItem from="1586591313531" duration="329000" />
+      <workItem from="1586591714628" duration="6703000" />
+      <workItem from="1586662300995" duration="1829000" />
+      <workItem from="1586665568577" duration="504000" />
+      <workItem from="1586666100150" duration="2495000" />
+      <workItem from="1586742432460" duration="13403000" />
+      <workItem from="1586759990689" duration="6915000" />
+      <workItem from="1586829254152" duration="58000" />
+      <workItem from="1586943302727" duration="75000" />
+      <workItem from="1587524566892" duration="238000" />
+      <workItem from="1588227003304" duration="1039000" />
+      <workItem from="1588252509903" duration="23000" />
+      <workItem from="1588412543911" duration="22000" />
+      <workItem from="1588818091940" duration="4732000" />
+      <workItem from="1588829782031" duration="245000" />
+      <workItem from="1588830065391" duration="1055000" />
+      <workItem from="1588831223897" duration="1693000" />
+      <workItem from="1588832947616" duration="572000" />
+      <workItem from="1588833551709" duration="308000" />
+      <workItem from="1588833890386" duration="314000" />
+      <workItem from="1588834230770" duration="1343000" />
+      <workItem from="1588835605986" duration="863000" />
+      <workItem from="1588836495997" duration="285000" />
+      <workItem from="1588836812433" duration="1769000" />
+      <workItem from="1588838609909" duration="2603000" />
+      <workItem from="1588841242300" duration="7086000" />
+      <workItem from="1588902971434" duration="630000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="84727000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="165" y="12" width="1324" height="815" extended-state="1" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30094787" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1756374" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3296355" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50082916" side_tool="true" weight="0.3381089" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.88714284" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Problems" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.4991708" visible="true" weight="0.22108346" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3291874" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.24031621" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23793566" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2875354" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.14022663" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Problems" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.2917847" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.17158177" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zln/springcloud/service/impl/PaymentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/springcloud/service/PaymentService.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/springcloud/controller/PaymentController.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/springcloud/service/impl/PaymentServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/springcloud/PaymentMain8001.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/springcloud/dao/PaymentDao.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/zln/springcloud.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/mapper/PaymentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/zln/springcloud/service/impl/PaymentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/zln/springcloud/dao/PaymentDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-api-commons/src/main/java/com/zln/springcloud/entities/Payment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-api-commons/src/main/java/com/zln/springcloud/entities/CommonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/zln/springcloud/service/PaymentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/mapper/PaymentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zln/springcloud/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="53" column="77" lean-forward="true" selection-start-line="53" selection-start-column="77" selection-end-line="53" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.2.1.RELEASE/spring-cloud-commons-2.2.1.RELEASE.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-server/2.2.1.RELEASE/spring-cloud-netflix-eureka-server-2.2.1.RELEASE.jar!/org/springframework/cloud/netflix/eureka/server/EnableEurekaServer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/zln/springcloud/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8004/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7002/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.18/lombok-1.16.18.jar!/lombok/extern/slf4j/Slf4j.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.2.2.RELEASE/spring-boot-dependencies-2.2.2.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="548" column="6" selection-start-line="548" selection-start-column="6" selection-end-line="548" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/zln/springcloud/PaymentMain8001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/zln/springcloud/controller/PaymentController.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/zln/springcloud/EurekaMain7001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8004/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8004/src/main/java/com/zln/springcloud/PaymentMain8004.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/zln/springcloud/PaymentMain8002.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8004byzk/src/main/java/com/zln/springcloud/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8004byzk/src/main/java/com/zln/springcloud/PaymentMain8004.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/locks/LockSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2892">
+          <caret line="214" selection-start-line="214" selection-end-line="214" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7002/src/main/java/com/zln/springcloud/EurekaMain7002.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8004byzk/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="94" column="19" selection-start-line="13" selection-start-column="4" selection-end-line="94" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80byzk/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8004byzk/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80byzk/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80byzk/src/main/java/com/zln/springcloud/OrderZkMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80byzk/src/main/java/com/zln/springcloud/config/ApplicationContextConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/zln/springcloud/OrderMain80.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/zln/springcloud/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/zln/springcloud/config/ApplicationContextConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="5" selection-start-line="17" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-order80byzk/src/main/java/com/zln/springcloud/controller/OrderZKController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27929688" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (cloud-eureka-server7002)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27929688" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cloud-provider-payment8004</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27929688" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27929688" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
